@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Rotaract Club of Lekhnath</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header-placeholder"></div>
+
+    <!-- Gallery Hero Section -->
+    <section class="gallery-hero">
+        <div class="container">
+            <div class="gallery-hero-content">
+                <h1>Our Gallery</h1>
+                <p>Capturing moments of service, fellowship, and community impact</p>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Gallery Filter -->
+    <section class="section gallery-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Events</button>
+                <button class="filter-btn" data-filter="service">Service Projects</button>
+                <button class="filter-btn" data-filter="fellowship">Fellowship</button>
+                <button class="filter-btn" data-filter="meetings">Meetings</button>
+                <button class="filter-btn" data-filter="awards">Awards</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section gallery-main">
+        <div class="container">
+            <div class="gallery-container">
+                <!-- Item 1 -->
+                <div class="gallery-item" data-category="service">
+                    <img src="images/gallery/health-camp.jpg" alt="Community Health Camp">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Community Health Camp</h3>
+                            <p>Free health checkup camp organized in rural Lekhnath (2023)</p>
+                            <a href="images/gallery/health-camp.jpg" class="gallery-expand" data-lightbox="gallery" data-title="Community Health Camp - Free health checkup camp organized in rural Lekhnath (2023)">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Item 2 -->
+                <div class="gallery-item" data-category="fellowship">
+                    <img src="images/gallery/installation.jpg" alt="12th Installation Ceremony">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>12th Installation Ceremony</h3>
+                            <p>Installation of Rtr. Pradeep Acharya as President (2022)</p>
+                            <a href="images/gallery/installation.jpg" class="gallery-expand" data-lightbox="gallery" data-title="12th Installation Ceremony - Installation of Rtr. Pradeep Acharya as President (2022)">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Item 3 -->
+                <div class="gallery-item" data-category="service">
+                    <img src="images/gallery/education-support.jpg" alt="Education Support Program">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Education Support Program</h3>
+                            <p>Distributing school supplies to underprivileged students (2023)</p>
+                            <a href="images/gallery/education-support.jpg" class="gallery-expand" data-lightbox="gallery" data-title="Education Support Program - Distributing school supplies to underprivileged students (2023)">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Item 4 -->
+                <div class="gallery-item" data-category="meetings">
+                    <img src="images/gallery/monthly-meeting.jpg" alt="Monthly Meeting">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Monthly Meeting</h3>
+                            <p>Club members discussing upcoming projects (2023)</p>
+                            <a href="images/gallery/monthly-meeting.jpg" class="gallery-expand" data-lightbox="gallery" data-title="Monthly Meeting - Club members discussing upcoming projects (2023)">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Item 5 -->
+                <div class="gallery-item" data-category="awards">
+                    <img src="images/gallery/district-award.jpg" alt="District Award Ceremony">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>District Award Ceremony</h3>
+                            <p>Receiving recognition for outstanding community service (2021)</p>
+                            <a href="images/gallery/district-award.jpg" class="gallery-expand" data-lightbox="gallery" data-title="District Award Ceremony - Receiving recognition for outstanding community service (2021)">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Item 6 -->
+                <div class="gallery-item" data-category="service">
+                    <img src="images/gallery/environment-cleanup.jpg" alt="Environment Cleanup Campaign">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Environment Cleanup Campaign</h3>
+                            <p>Cleaning Begnas Lake area on World Environment Day (2022)</p>
+                            <a href="images/gallery/environment-cleanup.jpg" class="gallery-expand" data-lightbox="gallery" data-title="Environment Cleanup Campaign - Cleaning Begnas Lake area on World Environment Day (2022)">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Item 7 -->
+                <div class="gallery-item" data-category="fellowship">
+                    <img src="images/gallery/social-event.jpg" alt="Social Gathering">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Social Gathering</h3>
+                            <p>Club members bonding during a recreational outing (2023)</p>
+                            <a href="images/gallery/social-event.jpg" class="gallery-expand" data-lightbox="gallery" data-title="Social Gathering - Club members bonding during a recreational outing (2023)">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Item 8 -->
+                <div class="gallery-item" data-category="service">
+                    <img src="images/gallery/blood-donation.jpg" alt="Blood Donation Camp">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Blood Donation Camp</h3>
+                            <p>Annual blood donation drive in collaboration with Red Cross (2023)</p>
+                            <a href="images/gallery/blood-donation.jpg" class="gallery-expand" data-lightbox="gallery" data-title="Blood Donation Camp - Annual blood donation drive in collaboration with Red Cross (2023)">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Item 9 -->
+                <div class="gallery-item" data-category="meetings">
+                    <img src="images/gallery/guest-session.jpg" alt="Guest Speaker Session">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Guest Speaker Session</h3>
+                            <p>Learning from experienced Rotarian (2023)</p>
+                            <a href="images/gallery/guest-session.jpg" class="gallery-expand" data-lightbox="gallery" data-title="Guest Speaker Session - Learning from experienced Rotarian (2023)">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Item 10 -->
+                <div class="gallery-item" data-category="fellowship">
+                    <img src="images/gallery/team-building.jpg" alt="Team Building Activity">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Team Building Activity</h3>
+                            <p>Members participating in leadership exercises (2022)</p>
+                            <a href="images/gallery/team-building.jpg" class="gallery-expand" data-lightbox="gallery" data-title="Team Building Activity - Members participating in leadership exercises (2022)">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Item 11 -->
+                <div class="gallery-item" data-category="service">
+                    <img src="images/gallery/elderly-support.jpg" alt="Elderly Support Program">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Elderly Support Program</h3>
+                            <p>Distributing essentials to senior citizens (2022)</p>
+                            <a href="images/gallery/elderly-support.jpg" class="gallery-expand" data-lightbox="gallery" data-title="Elderly Support Program - Distributing essentials to senior citizens (2022)">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Item 12 -->
+                <div class="gallery-item" data-category="awards">
+                    <img src="images/gallery/club-recognition.jpg" alt="Club Recognition">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Club Recognition</h3>
+                            <p>Receiving award from District Governor (2020)</p>
+                            <a href="images/gallery/club-recognition.jpg" class="gallery-expand" data-lightbox="gallery" data-title="Club Recognition - Receiving award from District Governor (2020)">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Gallery Section -->
+    <section class="section video-gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Video <span>Gallery</span></h2>
+                <p>Relive our memorable moments through these videos</p>
+            </div>
+            <div class="video-container">
+                <div class="video-item">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/example1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3>12th Installation Ceremony Highlights</h3>
+                    <p>Highlights from our 2022 installation ceremony</p>
+                </div>
+                <div class="video-item">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/example2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3>Community Health Camp Documentary</h3>
+                    <p>Documentary of our rural health camp initiative</p>
+                </div>
+                <div class="video-item">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/example3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3>Member Testimonials</h3>
+                    <p>Hear from our members about their Rotaract experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery CTA -->
+    <section class="section gallery-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Share Your Rotaract Moments</h2>
+                <p>Have photos from our events? Share them with us to be featured in our gallery!</p>
+                <a href="contact.html" class="btn btn-primary">Share Photos</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox-modal" class="lightbox-modal">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-image">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

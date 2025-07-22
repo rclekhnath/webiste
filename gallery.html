@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery | Rotaract Club of Lekhnath</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .photo-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        
+        .photo-item {
+            position: relative;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .photo-item:hover {
+            transform: scale(1.03);
+        }
+        
+        .photo-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+        }
+        
+        .photo-download {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0,0,0,0.7);
+            padding: 10px;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .photo-item:hover .photo-download {
+            opacity: 1;
+        }
+        
+        .download-btn {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 14px;
+            transition: background 0.3s ease;
+        }
+        
+        .download-btn:hover {
+            background: var(--primary-dark);
+        }
+        
+        .download-btn i {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div id="header-placeholder"></div>
+
+    <!-- Gallery Hero Section -->
+    <section class="gallery-hero">
+        <div class="container">
+            <div class="gallery-hero-content">
+                <h1>Photo Collection</h1>
+                <p>Memorable moments from our journey</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="section">
+        <div class="container">
+            <div class="photo-gallery">
+
+        <div class="photo-item">
+                    <img src="/gallery/1.jpg" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/gallery/1.jpg" download="Rotaract-Photo.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+
+        <div class="photo-item">
+                    <img src="/gallery/2.jpg" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/gallery/2.jpg" download="Rotaract-Photo.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+
+        <div class="photo-item">
+                    <img src="/gallery/3.jpg" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/gallery/3.jpg" download="Rotaract-Photo.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+
+
+                     <div class="photo-item">
+                    <img src="/gallery/4.jpg" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/gallery/4.jpg" download="Rotaract-Photo.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+     <div class="photo-item">
+                    <img src="/gallery/5.jpg" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/gallery/5.jpg" download="Rotaract-Photo.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+     <div class="photo-item">
+                    <img src="/gallery/6.jpg" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/gallery/6.jpg" download="Rotaract-Photo.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+     <div class="photo-item">
+                    <img src="/gallery/7.jpg" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/gallery/7.jpg" download="Rotaract-Photo.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+     <div class="photo-item">
+                    <img src="/gallery/8.jpg" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/gallery/8.jpg" download="Rotaract-Photo.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+     <div class="photo-item">
+                    <img src="/gallery/9.jpg" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/gallery/9.jpg" download="Rotaract-Photo.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+     <div class="photo-item">
+                    <img src="/gallery/10.jpg" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/gallery/10.jpg" download="Rotaract-Photo.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+     <div class="photo-item">
+                    <img src="/gallery/11.jpg" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/gallery/11.jpg" download="Rotaract-Photo.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+     <div class="photo-item">
+                    <img src="/gallery/12.jpg" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/gallery/12.jpg" download="Rotaract-Photo.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+     <div class="photo-item">
+                    <img src="/gallery/13.jpg" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/gallery/13.jpg" download="Rotaract-Photo.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+     <div class="photo-item">
+                    <img src="/gallery/14.jpg" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/gallery/14.jpg" download="Rotaract-Photo.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+     <div class="photo-item">
+                    <img src="/gallery/15.jpg" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/gallery/15.jpg" download="Rotaract-Photo.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+     <div class="photo-item">
+                    <img src="/gallery/16.jpg" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/gallery/16.jpg" download="Rotaract-Photo.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+     <div class="photo-item">
+                    <img src="/gallery/17.jpg" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/gallery/17.jpg" download="Rotaract-Photo.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+     <div class="photo-item">
+                    <img src="/gallery/18.jpg" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/gallery/18.jpg" download="Rotaract-Photo.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+     <div class="photo-item">
+                    <img src="/gallery/19.jpg" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/gallery/19.jpg" download="Rotaract-Photo.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+     <div class="photo-item">
+                    <img src="/gallery/20.jpg" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/gallery/20.jpg" download="Rotaract-Photo.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div> <div class="photo-item">
+                    <img src="/gallery/21.jpg" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/gallery/21.jpg" download="Rotaract-Photo.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div> <div class="photo-item">
+                    <img src="/gallery/22.jpg" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/gallery/22.jpg" download="Rotaract-Photo.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                <!-- Photo 1 -->
+                <div class="photo-item">
+                    <img src="/images/img2.png" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/images/img2.png" download="Rotaract-Photo-1.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Photo 2 -->
+                <div class="photo-item">
+                    <img src="/images/img3.jpg" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/images/img3.jpg" download="Rotaract-Photo-2.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Photo 3 -->
+                <div class="photo-item">
+                    <img src="images/img4.png" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="images/img4.png" download="Rotaract-Photo-3.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Photo 4 -->
+                <div class="photo-item">
+                    <img src="/images/img5.png" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/images/img5.png" download="Rotaract-Photo-4.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Photo 5 -->
+                <div class="photo-item">
+                    <img src="images/img9.jpg" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="images/img9.jpg" download="Rotaract-Photo-5.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Photo 6 -->
+                <div class="photo-item">
+                    <img src="/images/img7.jpg" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/images/img7.jpg" download="Rotaract-Photo-6.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Photo 7 -->
+                <div class="photo-item">
+                    <img src="/images/HHH1.jpg" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/images/HHH1.jpg" download="Rotaract-Photo-7.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Photo 8 -->
+                <div class="photo-item">
+                    <img src="/images/HHH2.jpg" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/images/HHH2.jpg" download="Rotaract-Photo-8.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Photo 9 -->
+                <div class="photo-item">
+                    <img src="/images/HHH3.jpg" alt="Rotaract activity">
+                    <div class="photo-download">
+                        <a href="/images/HHH3.jpg" download="Rotaract-Photo-9.jpg" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>
