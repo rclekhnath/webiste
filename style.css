@@ -194,6 +194,7 @@
         .nav-links {
            display: flex;
     list-style: none;
+                  font-size: 18px;
     margin: 0;
     padding: 0;
     flex-wrap: wrap;
@@ -3466,3 +3467,4 @@ blockquote {
         margin-top: 0.5rem;
     }
 }
+
