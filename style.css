@@ -150,8 +150,8 @@
             width: 100%;
             z-index: 1000;
             transition: var(--transition);
-              background: url('images/for\ web.png') no-repeat center center/cover;
-            background-color:var(--dark);
+              
+            background-color:white;
             box-shadow: var(--shadow);
             color: white;
         }
