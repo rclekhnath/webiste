@@ -175,7 +175,7 @@
         }
 
         .logo img {
-            height: 50px;
+            height: 100px;
             margin-right: 1rem;
         }
 
@@ -3467,4 +3467,5 @@ blockquote {
         margin-top: 0.5rem;
     }
 }
+
 
